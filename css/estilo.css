@@ -1,0 +1,39 @@
+li {
+    font-style: italic;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px; 
+    text-align: center;
+    line-height: 1.6; 
+    
+}
+
+main img {
+    width: 500px; /* Establece el ancho deseado en píxeles */
+    height: auto; /* Mantiene la proporción de aspecto original de las imágenes */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo de botones */
+a.button {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el espaciado interno según tus preferencias */
+    margin: 10px; /* Ajusta el margen según tus preferencias */
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #333; /* Establece un borde */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    background-color: #333; /* Color de fondo para el estado normal */
+    color: #fff; /* Color del texto en el estado normal */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave */
+}
+
+/* Cambio de estilo al pasar el mouse */
+a.button:hover {
+    background-color: #fff; /* Cambia el color de fondo al pasar el mouse */
+    color: #333; /* Cambia el color del texto al pasar el mouse */
+}
